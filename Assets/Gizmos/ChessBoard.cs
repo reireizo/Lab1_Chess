@@ -25,7 +25,7 @@ public class ChessBoard : MonoBehaviour
 
                 if (isWhite)
                 {
-                    Gizmos.color = Color.black;
+                    Gizmos.color = Color.blue;
                     isWhite = false;
                 }
 
@@ -37,7 +37,7 @@ public class ChessBoard : MonoBehaviour
             }
             if (isWhite)
             {
-                Gizmos.color = Color.black;
+                Gizmos.color = Color.blue;
                 isWhite = false;
             }
 
