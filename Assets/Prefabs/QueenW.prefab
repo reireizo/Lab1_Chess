@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 371220643085889547}
   - component: {fileID: 8371423143193388384}
+  - component: {fileID: 5713059694051866492}
   m_Layer: 0
   m_Name: QueenW
   m_TagString: Untagged
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &5713059694051866492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691070498174734849}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8366e4d42190f84ca5ce590dea279c1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

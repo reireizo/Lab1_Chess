@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3177970220294341007}
   - component: {fileID: 8058402157883524897}
+  - component: {fileID: -3885491990732562412}
   m_Layer: 0
   m_Name: PawnB
   m_TagString: Untagged
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-3885491990732562412
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1058558031488384134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 632a505ce382c624dbf4e4f7d48da249, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

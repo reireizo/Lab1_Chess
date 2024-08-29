@@ -5,13 +5,13 @@ using UnityEngine;
 
 public class ChessBoard : MonoBehaviour
 {
-    private bool isWhite;
+    private bool isBlue;
     #if UNITY_EDITOR
     private void OnDrawGizmos()
     {
         // Set the gizmo color
-        Gizmos.color = Color.white;
-        isWhite = true;
+        Gizmos.color = Color.blue;
+        isBlue = true;
 
         Vector3 gizmoPosition = transform.position;
 
@@ -21,30 +21,30 @@ public class ChessBoard : MonoBehaviour
             for(int j = 0;  j < 8; j++)
             {
                 gizmoPosition.x = j;
-                Gizmos.DrawCube(gizmoPosition, new Vector3(1, 1, 1));
+                Gizmos.DrawWireCube(gizmoPosition, new Vector3(1, 1, 1));
 
-                if (isWhite)
+                if (isBlue)
                 {
-                    Gizmos.color = Color.blue;
-                    isWhite = false;
+                    Gizmos.color = Color.white;
+                    isBlue = false;
                 }
 
                 else
                 {
-                    Gizmos.color = Color.white;
-                    isWhite = true;
+                    Gizmos.color = Color.blue;
+                    isBlue = true;
                 }
             }
-            if (isWhite)
+            if (isBlue)
             {
-                Gizmos.color = Color.blue;
-                isWhite = false;
+                Gizmos.color = Color.white;
+                isBlue = false;
             }
 
             else
             {
-                Gizmos.color = Color.white;
-                isWhite = true;
+                Gizmos.color = Color.blue;
+                isBlue = true;
             }
         }
     }

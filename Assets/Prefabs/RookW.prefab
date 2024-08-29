@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3554841525053742741}
   - component: {fileID: 6284417876750932725}
+  - component: {fileID: -2319134116476475483}
   m_Layer: 0
   m_Name: RookW
   m_TagString: Untagged
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-2319134116476475483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4064040259542011004}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 906532c987c9edd4d948f4cf663b7909, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

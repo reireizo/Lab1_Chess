@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7863531760643600116}
   - component: {fileID: 1279889154330102521}
+  - component: {fileID: 4528449806026465411}
   m_Layer: 0
   m_Name: BishopB
   m_TagString: Untagged
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4528449806026465411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6592838336746829259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f17252dcf2ebfcd47bd2d7fe45e837b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

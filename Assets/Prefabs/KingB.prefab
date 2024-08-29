@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2382715294568448443}
   - component: {fileID: 8665965556227786227}
+  - component: {fileID: -6063635036611022794}
   m_Layer: 0
   m_Name: KingB
   m_TagString: Untagged
@@ -84,3 +85,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-6063635036611022794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3678534737237345301}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 280eb07ab5c32eb4599181eb39225f30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
